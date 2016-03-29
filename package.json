@@ -1,27 +1,31 @@
 {
-  "name": "datauri-to-clipboard",
-  "version": "1.0.0",
-  "description": "Image file convert to data Uri scheme and copy to the clipboard.",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cssho/datauri-to-clipboard.git"
-  },
-  "keywords": [
-    "datauri",
-    "image",
-    "clipboard"
-  ],
-  "author": "cssho",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cssho/datauri-to-clipboard/issues"
-  },
-  "homepage": "https://github.com/cssho/datauri-to-clipboard#readme",
-  "dependencies": {
-    "commander": "^2.9.0",
-    "copy-paste": "^1.1.4",
-    "data-uri": "0.0.3",
-    "fs": "0.0.2"
-  }
+    "name": "datauri-to-clipboard",
+    "version": "1.0.1",
+    "description": "Image file convert to data Uri scheme and copy to the clipboard.",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cssho/datauri-to-clipboard.git"
+    },
+    "keywords": [
+        "datauri",
+        "image",
+        "clipboard"
+    ],
+    "author": "cssho",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/cssho/datauri-to-clipboard/issues"
+    },
+    "homepage": "https://github.com/cssho/datauri-to-clipboard#readme",
+    "dependencies": {
+        "commander": "^2.9.0",
+        "copy-paste": "^1.1.4",
+        "data-uri": "0.0.3",
+        "fs": "0.0.2"
+    },
+    "preferGlobal": true,
+    "bin": {
+        "datauri-to-clipboard": "index.js"
+    }
 }
